@@ -1,0 +1,187 @@
+WatchGuard Cloud Public URLs
+
+Notes:
+------
+* All traffic to WatchGuard Cloud uses TCP port 443, with one exception. 
+  Fireboxes that run Fireware v12.2.1 or lower connect on port 8883.
+* This list includes the base domain URL, not the full URL path.
+* WatchGuard Cloud operates in three regions. Region-specific URLs contain one of these region codes:
+
+      jpn = APAC region
+      deu = EMEA region
+      usa - NA / Americas region
+
+WATCHGUARD CLOUD PUBLIC URLS
+
+WatchGuard Cloud login	
+----------------------
+cloud.watchguard.com
+login.cloud.watchguard.com
+login.watchguard.com
+watchguard.auth0.com
+
+WatchGuard Cloud UI
+-------------------
+jpn.cloud.watchguard.com
+deu.cloud.watchguard.com
+usa.cloud.watchguard.com
+
+guard.jpn.watchguard.com
+guard.deu.watchguard.com
+guard.usa.watchguard.com
+
+Authpoint IdP Portal and set user password
+------------------------------------------
+authpoint.watchguard.com
+jpn.authpoint.watchguard.com
+deu.authpoint.watchguard.com
+usa.authpoint.watchguard.com
+
+AuthPoint token activation
+--------------------------
+activation.cloud.watchguard.com
+
+AuthPoint self service portal
+-----------------------------
+selfserviceportal.authpoint.jpn.cloud.watchguard.com
+selfserviceportal.authpoint.deu.cloud.watchguard.com
+selfserviceportal.authpoint.usa.cloud.watchguard.com
+
+AuthPoint alias of IdP Portal
+-----------------------------
+account.authpoint.watchguard.com
+
+AuthPoint Password Manager and Brower Extension
+-----------------------------
+APAC:
+api.jpn.credentialmgmt.watchguard.com
+cdn.jpn.credentialmgmt.watchguard.com
+auth-management.authpoint.jpn.cloud.watchguard.com
+vault-session.authpoint.jpn.cloud.watchguard.com
+
+EMEA:
+api.deu.credentialmgmt.watchguard.com
+cdn.deu.credentialmgmt.watchguard.com
+auth-management.authpoint.deu.cloud.watchguard.com
+vault-session.authpoint.deu.cloud.watchguard.com
+
+NA:
+api.usa.credentialmgmt.watchguard.com
+cdn.usa.credentialmgmt.watchguard.com
+auth-management.authpoint.usa.cloud.watchguard.com
+vault-session.authpoint.usa.cloud.watchguard.com
+
+AuthPoint get SAML metadata endpoint
+------------------------------------	
+saml.metadata.authpoint.usa.cloud.watchguard.com
+saml.metadata.authpoint.deu.cloud.watchguard.com
+saml.metadata.authpoint.jpn.cloud.watchguard.com
+
+AuthPoint set user password, token activation/migration/sync
+------------------------------------------------------------
+auth-management.authpoint.jpn.cloud.watchguard.com	
+auth-management.authpoint.deu.cloud.watchguard.com
+auth-management.authpoint.usa.cloud.watchguard.com
+
+AuthPoint token activation for new user or new token
+----------------------------------------------------
+dskpp.authpoint.usa.cloud.watchguard.com
+dskpp.authpoint.deu.cloud.watchguard.com
+dskpp.authpoint.jpn.cloud.watchguard.com
+
+AuthPoint SAML Sign-in
+----------------------
+sp.authpoint.jpn.cloud.watchguard.com
+sp.authpoint.deu.cloud.watchguard.com
+sp.authpoint.usa.cloud.watchguard.com
+
+AuthPoint Gateway service
+-------------------------
+gateway-service.authpoint.jpn.cloud.watchguard.com
+gateway-service.authpoint.deu.cloud.watchguard.com
+gateway-service.authpoint.usa.cloud.watchguard.com
+
+AuthPoint ADFS Agent
+--------------------
+adfs.authpoint.jpn.cloud.watchguard.com
+adfs.authpoint.deu.cloud.watchguard.com
+adfs.authpoint.usa.cloud.watchguard.com
+
+AuthPoint RADIUS endpoint
+-------------------------
+radius.authpoint.jpn.cloud.watchguard.com
+radius.authpoint.deu.cloud.watchguard.com
+radius.authpoint.usa.cloud.watchguard.com
+
+AuthPoint Account Policies
+--------------------------
+policies.authpoint.jpn.cloud.watchguard.com
+policies.authpoint.deu.cloud.watchguard.com
+policies.authpoint.usa.cloud.watchguard.com
+
+AuthPoint Desktop logon
+-----------------------
+desktop.authpoint.jpn.cloud.watchguard.com
+desktop.authpoint.deu.cloud.watchguard.com
+desktop.authpoint.usa.cloud.watchguard.com
+
+AuthPoint Gateway Registration
+------------------------------
+authpoint.agent.watchguard.com
+
+authpoint.jpn.agent.watchguard.com
+authpoint.deu.agent.watchguard.com 
+authpoint.usa.agent.watchguard.com
+
+Firebox Registration
+--------------------
+firebox.jpn.agent.watchguard.com
+firebox.deu.agent.watchguard.com
+firebox.usa.agent.watchguard.com
+
+firebox.agent.watchguard.com
+firebox.watchguard.com (for Fireware v12.2.1 and lower)
+
+On-premise Agents - IoT endpoints
+---------------------------------
+APAC:
+aidd27s0p51l6.iot.ap-northeast-1.amazonaws.com
+aidd27s0p51l6-ats.iot.ap-northeast-1.amazonaws.com
+
+EMEA:
+aidd27s0p51l6.iot.eu-central-1.amazonaws.com
+aidd27s0p51l6-ats.iot.eu-central-1.amazonaws.com
+
+NA:
+aidd27s0p51l6.iot.us-west-2.amazonaws.com
+aidd27s0p51l6-ats.iot.us-west-2.amazonaws.com
+
+WatchGuard Public APIs (base URL)
+---------------------------------
+api.jpn.cloud.watchguard.com
+api.deu.cloud.watchguard.com
+api.usa.cloud.watchguard.com
+
+AuthPoint Mobile Devices
+------------------------
+device.authpoint.jpn.cloud.watchguard.com
+device.authpoint.deu.cloud.watchguard.com
+device.authpoint.usa.cloud.watchguard.com
+mobile.authpoint.jpn.cloud.watchguard.com
+mobile.authpoint.deu.cloud.watchguard.com
+mobile.authpoint.usa.cloud.watchguard.com
+
+
+Other AuthPoint URLs
+--------------------
+APAC:
+devicenotification.authpoint.jpn.cloud.watchguard.com
+mobileservice.authpoint.jpn.cloud.watchguard.com
+
+EMEA:
+devicenotification.authpoint.deu.cloud.watchguard.com
+mobileservice.authpoint.deu.cloud.watchguard.com
+
+NA:
+devicenotification.authpoint.usa.cloud.watchguard.com
+mobileservice.authpoint.usa.cloud.watchguard.com
