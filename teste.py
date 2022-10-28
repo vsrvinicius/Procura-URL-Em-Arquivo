@@ -1,7 +1,6 @@
 import socket
 from typing import Type
 
-host = "google.com"
 count = 0
 
 with open("lista.txt", "r") as f:
